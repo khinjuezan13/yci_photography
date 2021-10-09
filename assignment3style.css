@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    background-color: #F3F1F5;
+}
+
+.whitebox {
+    width: 900px;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    box-shadow: 30px 0 10px rgba(0, 0, 0, 0.1), -30px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.camera {
+    width: 615px;
+    background-image: url(photo1.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+.text {
+    width: 400px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.yci {
+    width: 200px;
+    text-align: center;
+    text-shadow: -4px -4px 5px rgba(0, 0, 0, 0.5)
+}
+
+.phrase {
+    color: silver;
+    text-align: center;
+}
+
+.view {
+    text-decoration: none;
+    display: flex;
+    width: 130px;
+    height: 45px;
+    color: black;
+    border: solid 1px;
+    border-color: red;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.view:hover {
+    background-color: black;
+    color: white;
+}
+
+.work {
+    /* width: 900px;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    box-shadow: 30px 30px 10px rgba(0, 0, 0, 0.1), -30px 30px 10px rgba(0, 0, 0, 0.1); */
+    width: 900px;
+    margin: 0 auto 50px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 30px 30px 20px rgba(0, 0, 0, 0.2), -30px 30px 20px rgba(0, 0, 0, 0.2);
+}
+
+.titleBox {
+    height: 80px;
+    width: 900px;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titleText {
+    color: white;
+    border-right-style: dotted;
+    border-left-style: dotted;
+    border-color: white;
+    border-width: 1px;
+    padding: 0 10px;
+}
+
+.photos {
+    display: block;
+    width: 900px;
+    height: 565px;
+}
+
+.photoText {
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+}
+
+.MailAndPhone {
+    text-decoration: none;
+}
